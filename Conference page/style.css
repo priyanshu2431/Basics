@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+body{
+    background-color: #293f50;
+    font-family: 'Quicksand', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.main-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.heading-logo{
+    font-size: 1.7rem;
+    margin-left: 2.5rem;
+    letter-spacing: 3px;
+    line-height: 50px;
+    padding: 0 15rem;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: #648880;
+}
+
+.nav-item1{
+    color: #648880;
+    height: 1.5vh;
+    margin: 0px 10rem;
+    padding-top: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    padding: 30px 50px 10px 1px;
+    margin: 0 -4rem;
+}
+
+.nav-item2{
+    margin-left: -3.7rem;
+    margin-top: 39px;
+}
+
+.nav-items{
+    padding: 0 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#section{
+    text-align: center;
+    line-height: 40px;
+    padding: 60px 0;
+}
+
+h2{
+    color: #648880;
+    font-size: 37px;
+}
+
+h2,p{
+    margin: 10px;
+}
+
+p{
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+button{
+    background-color: #293f50;
+    border-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px 25px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+
+img{
+    height: 200px
+
+}
+
+.row{
+    min-width: 960px;
+    padding: 66px 0 44px 0;
+    background-color: white;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a > h2{
+    font-size: 20px;
+}
+
+.teaser > p{
+    color: #648880;
+    font-size: 15px;
+}
+
+h5{
+    color: #648880;
+}
+
+.grid, .col-1, .col-2, .col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container, .grid {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+}
+
+small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

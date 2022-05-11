@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url('backg.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-gap: 20px;
+        }
+
+        .menu {
+            font-family: 'Francois One', sans-serif;
+            padding-top: 20px;
+            padding-right: 40px;
+        }
+
+        #menu-list{
+            display: grid;
+            grid-gap: 10px;
+            padding: 5px 15px;
+            list-style: none;
+            grid-template-columns: repeat(5,1fr);
+        }
+        #menu-list li{
+            padding-right: 0px 20px;
+        }
+
+        #menu-list li a {
+            list-style: none;
+            color: black;
+            display: block;
+            padding: 3px 99px;
+            font-size: 1.6rem;
+            text-decoration: none;
+            background-color: rgb(194, 194, 17);
+        }
+        .top{
+            display: grid;
+            grid-gap: 20px;
+            grid-template-areas: 
+            "hero hero price-text1"
+            "hero hero price-text2" ;
+        }
+        .hero{
+            background-image: url();
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="menu">
+            <!-- <button aria-expanded="false" aria-controls="menu-list">
+                <span class="open">☰</span>
+                <span class="close">×</span>
+                Menu
+            </button> -->
+            <ul id="menu-list">
+                <li><a href="#">Tacos</a></li>
+                <li><a href="#">Beers</a></li>
+                <li><a href="#">Wines</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Reservations</a></li>
+            </ul>
+        </nav>
+        <div class="top">
+            <header class="hero">
+                    <h2>Terry's Taco Joint</h2>
+                    <p>Pretty Good Tacos!</p>
+            </header>
+            <div class="price-text1">
+                <p class="price">$1.99</p>
+                <p>Tacos</p>
+            </div>
+            <div class="price-text2">
+                <p class="price">$3.99</p>
+                <p>Kombucha</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

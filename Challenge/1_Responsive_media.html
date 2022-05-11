@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Challenge</title>
+    <style>
+        .heading{
+            color: rgb(13, 138, 13);
+            text-align: center;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            
+        }
+        .container1{
+            background-color: rgb(126, 124, 124);
+            padding: 20px;
+        }
+        .container2{
+            background-color: rgb(145, 142, 142);
+            padding: 20px;
+        }
+        .container3{
+            background-color: rgb(177, 174, 174);
+            padding: 20px;
+        }
+        .container4{
+            background-color: rgb(196, 191, 191);
+            padding: 20px;
+        }
+        h2{
+            color: rgb(233, 10, 10);
+        }
+        p{
+            color: rgb(233, 10, 10);
+        }
+
+        @media only screen and (min-width: 836px){
+            .container1{
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 class="heading">Media Query for Columns-Increase or decrease the screen size to see the change</h2>
+    <div class="box">
+        <div class="container1">
+            <h2>Name 1</h2>
+            <p>I am Aman</p>
+        </div>
+        <div class="container2">
+            <h2>Name 2</h2>
+            <p>I am Rahul</p>
+        </div>
+        <div class="container3">
+            <h2>Name 3</h2>
+            <p>I am Neha</p>
+        </div>
+        <div class="container4">
+            <h2>Name 4</h2>
+            <p>I am Yash</p>
+        </div>
+    </div>
+    
+</body>
+</html>
